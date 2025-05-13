@@ -1,0 +1,85 @@
+*{
+font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #F4F0E8;
+  padding: 1em;
+}
+
+header > nav > a{
+  font-weight: bold;
+  color:forestgreen;
+}
+
+.brand{
+  font-size: 2em;
+  margin: 0%;
+
+  font-weight: bolder;
+  color:green;
+}
+
+main{
+  display: flex;
+}
+
+footer{
+  display: flex;
+
+  padding: 0.66em;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 25pt;
+  justify-content: center;
+}
+
+aside > ul{
+  display: flex;
+  flex-direction: column;
+  flex: 2 auto;
+
+  padding-left: 0%;
+}
+
+aside > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-evenly;
+
+  background-color: lightgreen;
+  padding-left: 1em;
+  padding-right: 2em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  margin: 1em;
+  border-radius: 15%;
+
+  font-weight: bold;
+}
+
+main > article{
+  display: flex;
+  flex-direction: column;
+  flex: 5 auto;
+}
+
+.testimonial{
+  background-color: lightgray;
+  padding: 0.75em;
+
+  font-weight: bold;
+}
